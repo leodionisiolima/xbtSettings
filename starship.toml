@@ -1,0 +1,37 @@
+format = """
+$username\
+$hostname \
+$directory \
+$git_branch \
+$python \
+$character
+"""
+add_newline = false
+
+[username]
+format = "[${user}@](bold green)"
+show_always = true
+
+[hostname]
+format = "[$hostname](bold green)"
+ssh_only = false
+
+[directory]
+format = "[🖿 $path](bold 32)"  # Apenas o nome da pasta atual
+truncation_length = 2                 # Garante que só o último diretório apareça
+home_symbol = "~"                      # Mostra "~" quando estiver no home
+read_only = " 🔒"
+
+[git_branch]
+format = "[🌿$branch](bold purple)"
+symbol = ""
+
+[python]
+format = "via[Python $version](bold magenta) "
+symbol = ""
+
+[character]
+format = "$symbol "
+success_symbol = "[❯](bold blue)"
+error_symbol = "[❯](bold red)"
+
