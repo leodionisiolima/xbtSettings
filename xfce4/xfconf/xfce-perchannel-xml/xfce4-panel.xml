@@ -49,7 +49,7 @@
         <value type="string" value="google-chrome.desktop"/>
         <value type="string" value="firefox_firefox.desktop"/>
       </property>
-      <property name="button-icon" type="string" value="/home/leo/Pictures/grid2.png"/>
+      <property name="button-icon" type="string" value="/home/leo/Pictures/grid.png"/>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
