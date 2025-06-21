@@ -1,0 +1,33 @@
+cat > .gitignore <<'EOF'
+# 🧹 Ignorar arquivos e pastas lixo
+*.log
+*.store
+*.lock
+*.bak
+*.swp
+*.pid
+*.sock
+*.tmp
+*~
+
+# 🧹 Ignorar pastas temporárias comuns
+*/cache/
+*/Cache/
+*/logs/
+*/log/
+*/tmp/
+*/temp/
+
+# ⚠️ Ignorar navegadores (extremamente mutáveis)
+google-chrome/
+
+# 🧠 Ignorar pastas de IDEs/editors
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-*
+
+# 🚫 Não ignorar este próprio arquivo
+!.gitignore
+EOF
+
