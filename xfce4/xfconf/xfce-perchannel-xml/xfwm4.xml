@@ -60,7 +60,6 @@
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="cycle_workspaces" type="bool" value="false"/>
     <property name="double_click_action" type="string" value="maximize"/>
-    <property name="easy_click" type="string" value="Alt"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="frame_border_top" type="int" value="0"/>
     <property name="horiz_scroll_opacity" type="bool" value="false"/>
@@ -86,5 +85,6 @@
       <value type="string" value="Workspace 2"/>
       <value type="string" value="Workspace 3"/>
     </property>
+    <property name="easy_click" type="string" value="Alt"/>
   </property>
 </channel>

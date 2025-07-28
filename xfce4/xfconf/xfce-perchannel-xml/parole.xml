@@ -11,10 +11,12 @@
     <property name="font" type="string" value="Sans Bold 20"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/home/leo/tmp/nsfw_FILES"/>
+    <property name="last-used-media" type="string" value="/home/leo/Videos"/>
   </property>
   <property name="window" type="empty">
     <property name="maximized" type="bool" value="false"/>
+    <property name="width" type="int" value="797"/>
+    <property name="height" type="int" value="491"/>
   </property>
   <property name="audio" type="empty">
     <property name="volume" type="int" value="50"/>
