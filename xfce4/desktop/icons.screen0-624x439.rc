@@ -2,30 +2,22 @@
 4.10.3+=true
 
 [/home/leo/Desktop/rustrover.desktop]
-row=2
-col=0
-
-[/home/leo/Desktop/com.valvesoftware.Steam.desktop]
 row=3
 col=0
 
 [/home/leo/Desktop/com.blackmagicdesign.resolve.desktop]
-row=4
+row=2
 col=0
 
-[/home/leo/Desktop/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop]
-row=6
+[/home/leo/Desktop/steam.desktop]
+row=0
 col=0
 
 [/home/leo/Desktop/chrome-cadlkienfkclaiaibeoongdcgmdikeeg-Default.desktop]
 row=1
 col=0
 
-[/home/leo/Desktop/chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop]
-row=5
-col=0
-
 [Trash]
 row=0
-col=0
+col=1
 

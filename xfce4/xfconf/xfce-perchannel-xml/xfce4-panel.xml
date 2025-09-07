@@ -12,6 +12,9 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
+        <value type="int" value="14"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
         <value type="int" value="11"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
@@ -27,10 +30,10 @@
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="0.000000"/>
-        <value type="double" value="1.000000"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
       </property>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
@@ -38,18 +41,27 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="recent" type="array">
-        <value type="string" value="xfce-wm-settings.desktop"/>
-        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop"/>
+        <value type="string" value="chrome-mbcalafeeggeihoangcddalkkdigoegj-Profile_1.desktop"/>
+        <value type="string" value="blueman-manager.desktop"/>
+        <value type="string" value="chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop"/>
+        <value type="string" value="virt-manager.desktop"/>
         <value type="string" value="xfce-workspaces-settings.desktop"/>
-        <value type="string" value="nm-connection-editor.desktop"/>
-        <value type="string" value="chatgpt.desktop"/>
-        <value type="string" value="xfce-keyboard-settings.desktop"/>
-        <value type="string" value="menulibre-new-launcher.desktop"/>
-        <value type="string" value="menulibre.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
         <value type="string" value="google-chrome.desktop"/>
-        <value type="string" value="firefox_firefox.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
       </property>
       <property name="button-icon" type="string" value="/home/leo/Pictures/grid.png"/>
+      <property name="menu-opacity" type="int" value="95"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="libreoffice-calc.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfhelp4.desktop"/>
+      </property>
     </property>
     <property name="plugin-2" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -58,6 +70,10 @@
     <property name="plugin-3" type="string" value="tasklist">
       <property name="show-handle" type="bool" value="false"/>
       <property name="flat-buttons" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="middle-click" type="uint" value="1"/>
+      <property name="window-scrolling" type="bool" value="false"/>
     </property>
     <property name="plugin-4" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -103,12 +119,56 @@
     </property>
     <property name="plugin-10" type="string" value="clock">
       <property name="digital-format" type="string" value=" %d %b, %H:%M "/>
-      <property name="digital-time-format" type="string" value=" %d %b, %H:%M "/>
+      <property name="digital-time-format" type="string" value=" • %a, %d/%m/%Y • %H:%M"/>
       <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Reddit Mono 8"/>
     </property>
     <property name="plugin-11" type="string" value="launcher">
       <property name="items" type="array">
       </property>
+    </property>
+    <property name="plugin-12" type="string" value="systemload">
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="swap" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.1803921568627451"/>
+          <value type="double" value="0.76078431372549016"/>
+          <value type="double" value="0.49411764705882355"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+      <property name="memory" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.96078431372549022"/>
+          <value type="double" value="0.76078431372549016"/>
+          <value type="double" value="0.066666666666666666"/>
+          <value type="double" value="1"/>
+        </property>
+        <property name="label" type="string" value="ram"/>
+      </property>
+      <property name="cpu" type="empty">
+        <property name="color" type="array">
+          <value type="double" value="0.75294117647058822"/>
+          <value type="double" value="0.10980392156862745"/>
+          <value type="double" value="0.15686274509803921"/>
+          <value type="double" value="1"/>
+        </property>
+      </property>
+    </property>
+    <property name="plugin-13" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-format" type="string" value="  • "/>
+      <property name="digital-date-font" type="string" value="Reddit Mono 8"/>
+    </property>
+    <property name="plugin-14" type="string" value="clock">
+      <property name="digital-date-font" type="string" value="Reddit Mono 8"/>
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-format" type="string" value=" • "/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
