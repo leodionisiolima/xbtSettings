@@ -1,6 +1,6 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop
 recent=
-button-icon=/home/leo/Pictures/grid.png
+button-icon=/home/leo/Pictures/whiskerMenuIcon.png
 button-single-row=false
 show-button-title=false
 show-button-icon=true

@@ -70,6 +70,9 @@
         <value type="string" value="clipman"/>
         <value type="string" value="anydesk"/>
       </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+      </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
