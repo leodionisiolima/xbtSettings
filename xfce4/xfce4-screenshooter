@@ -4,4 +4,6 @@ last_extension=png
 screenshot_dir=file:/home/leo/Downloads
 enable_imgur_upload=true
 action=2
+custom_action_command=none
+show_in_folder=false
 

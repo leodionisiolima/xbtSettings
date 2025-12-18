@@ -29,6 +29,7 @@
       <property name="&lt;Super&gt;r" type="empty">
         <property name="startup-notify" type="empty"/>
       </property>
+      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="empty"/>
       <property name="&lt;Super&gt;l" type="empty"/>
       <property name="XF86HomePage" type="empty"/>
       <property name="&lt;Super&gt;w" type="empty"/>
@@ -39,7 +40,6 @@
       <property name="&lt;Super&gt;t" type="empty"/>
       <property name="XF86Calculator" type="empty"/>
       <property name="XF86Music" type="empty"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;s" type="empty"/>
       <property name="&lt;Alt&gt;Pause" type="empty"/>
     </property>
     <property name="custom" type="empty">
@@ -60,14 +60,14 @@
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/home/leo/Programs/wezterm"/>
-      <property name="&lt;Super&gt;t" type="string" value="/home/leo/Programs/wezterm"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
-      <property name="&lt;Super&gt;b" type="string" value="/home/leo/Programs/wezterm -e sudo btop"/>
       <property name="&lt;Super&gt;c" type="string" value="mate-calc"/>
       <property name="&lt;Super&gt;g" type="string" value="/opt/google/chrome/google-chrome --app-id=cadlkienfkclaiaibeoongdcgmdikeeg"/>
-      <property name="&lt;Super&gt;Alt_L" type="string" value="/home/leo/bin/fixComposeForever/fixComposeForever2"/>
+      <property name="&lt;Super&gt;Alt_L" type="string" value="/work/spark/bin/fixComposeForever/fixComposeForever2"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/work/spark/bin/wezterm/wezterm.AppImage"/>
+      <property name="&lt;Super&gt;t" type="string" value="/work/spark/bin/wezterm/wezterm.AppImage"/>
+      <property name="&lt;Super&gt;b" type="string" value="/work/spark/bin/wezterm/wezterm.AppImage -e sudo btop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -126,8 +126,8 @@
       <property name="&lt;Primary&gt;F12" type="empty"/>
       <property name="&lt;Super&gt;KP_Left" type="empty"/>
       <property name="&lt;Super&gt;KP_Right" type="empty"/>
-      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Page_Up" type="empty"/>
       <property name="&lt;Super&gt;KP_Home" type="empty"/>
       <property name="&lt;Super&gt;KP_End" type="empty"/>

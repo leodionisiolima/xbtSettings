@@ -15,7 +15,7 @@ return {
   },
 
   -- 🪟 Remove barra de título e borda superior
-  window_decorations = "NONE",
+  window_decorations = "RESIZE",
 
   -- 🌫️ Opacidade do fundo
   window_background_opacity = 1.0,

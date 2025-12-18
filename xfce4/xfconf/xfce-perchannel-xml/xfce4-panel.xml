@@ -15,10 +15,8 @@
         <value type="int" value="14"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="11"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="7"/>
         <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
@@ -92,20 +90,12 @@
         <value type="string" value="nm-applet"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="anydesk"/>
       </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
-    <property name="plugin-7" type="string" value="indicator">
-      <property name="blacklist" type="array">
-        <value type="string" value="libappmenu.so"/>
-      </property>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-indicators" type="array">
-        <value type="string" value="libayatana-application.so"/>
-      </property>
-    </property>
     <property name="plugin-8" type="string" value="power-manager-plugin"/>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
@@ -122,10 +112,6 @@
       <property name="digital-time-format" type="string" value=" • %a, %d/%m/%Y • %H:%M"/>
       <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-time-font" type="string" value="Reddit Mono 8"/>
-    </property>
-    <property name="plugin-11" type="string" value="launcher">
-      <property name="items" type="array">
-      </property>
     </property>
     <property name="plugin-12" type="string" value="systemload">
       <property name="uptime" type="empty">
