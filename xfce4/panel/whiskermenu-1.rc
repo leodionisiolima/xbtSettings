@@ -1,6 +1,6 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop
 recent=google-chrome.desktop,xfce-keyboard-settings.desktop
-button-icon=view-grid
+button-icon=/home/leo/Pictures/whiskerMenuIcon.png
 button-single-row=false
 show-button-title=false
 show-button-icon=true
