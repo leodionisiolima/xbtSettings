@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop
-recent=
+recent=google-chrome.desktop,xfce4-terminal.desktop,libreoffice-writer.desktop,terminator.desktop
 button-icon=/home/leo/Pictures/whiskerMenuIcon.png
 button-single-row=false
 show-button-title=false
