@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-desktop" version="1.0">
   <property name="backdrop" type="empty">
@@ -89,7 +89,7 @@
       </property>
       <property name="monitorHDMI-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/home/leo/Pictures/synthWallpapers/artistic-neon-huawei-light-purple-hd-wallpaper-6896fd980050dcd8604c110e9872b4aa.jpg"/>
+          <property name="last-image" type="string" value="/home/leo/Pictures/synthWallpapers/synthwave0108.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
           <property name="color-style" type="int" value="0"/>
@@ -131,18 +131,20 @@
     <property name="style" type="empty"/>
     <property name="file-icons" type="empty">
       <property name="show-home" type="bool" value="false"/>
-      <property name="show-filesystem" type="empty"/>
-      <property name="show-removable" type="empty"/>
-      <property name="show-trash" type="empty"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-removable" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
     </property>
     <property name="icon-size" type="empty"/>
     <property name="tooltip-size" type="empty"/>
+    <property name="show-thumbnails" type="bool" value="true"/>
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="empty"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="659"/>
+    <property name="window-width" type="int" value="763"/>
     <property name="window-height" type="int" value="557"/>
   </property>
+  <property name="last-settings-migration-version" type="uint" value="1"/>
 </channel>

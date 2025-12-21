@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-keyboard-shortcuts" version="1.0">
   <property name="commands" type="empty">
@@ -65,9 +65,9 @@
       <property name="&lt;Super&gt;c" type="string" value="mate-calc"/>
       <property name="&lt;Super&gt;g" type="string" value="/opt/google/chrome/google-chrome --app-id=cadlkienfkclaiaibeoongdcgmdikeeg"/>
       <property name="&lt;Super&gt;Alt_L" type="string" value="/work/spark/bin/fixComposeForever/fixComposeForever2"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/work/spark/bin/wezterm/wezterm"/>
-      <property name="&lt;Super&gt;t" type="string" value="/work/spark/bin/wezterm/wezterm"/>
-      <property name="&lt;Super&gt;b" type="string" value="/work/spark/bin/wezterm/wezterm -e sudo btop"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/home/leo/Programs/wezterm.AppImage"/>
+      <property name="&lt;Super&gt;t" type="string" value="/home/leo/Programs/wezterm.AppImage"/>
+      <property name="&lt;Super&gt;b" type="string" value="/home/leo/Programs/wezterm.AppImage -e sudo btop"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

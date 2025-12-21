@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="array">
@@ -61,11 +61,13 @@
       <property name="symbolic-icons" type="bool" value="true"/>
       <property name="icon-size" type="int" value="0"/>
       <property name="known-items" type="array">
+        <value type="string" value="zero-trust-client"/>
         <value type="string" value="chrome_status_icon_1"/>
         <value type="string" value="blueman"/>
         <value type="string" value="nm-applet"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
         <value type="string" value="anydesk"/>
@@ -80,7 +82,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="enable-wnck" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Chrome;org.gnome.Rhythmbox3;parole"/>
+      <property name="known-players" type="string" value="Chrome;firefox-esr;org.gnome.Rhythmbox3;parole"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
       <property name="persistent-players" type="string" value="parole;org.gnome.Rhythmbox3"/>
       <property name="show-notifications" type="bool" value="true"/>
@@ -135,7 +137,26 @@
       <property name="digital-layout" type="uint" value="2"/>
       <property name="digital-date-format" type="string" value=" • "/>
     </property>
-    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-7" type="string" value="whiskermenu">
+      <property name="button-icon" type="string" value="/home/leo/Pictures/whiskerMenuIcon.png"/>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="xfce-wm-settings.desktop"/>
+        <value type="string" value="virt-manager.desktop"/>
+        <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="wezterm.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="anydesk.desktop"/>
+        <value type="string" value="terminator.desktop"/>
+      </property>
+    </property>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>

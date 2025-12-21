@@ -5,7 +5,7 @@ return {
   font = wezterm.font("Reddit Mono", { weight = "Regular" }),
   font_size = 12,
   enable_tab_bar = false,
-  
+
   -- 🧱 Padding da janela
   window_padding = {
     left = 0,
@@ -15,7 +15,7 @@ return {
   },
 
   -- 🪟 Remove barra de título e borda superior
-  window_decorations = "RESIZE",
+  window_decorations = "NONE",
 
   -- 🌫️ Opacidade do fundo
   window_background_opacity = 1.0,
@@ -30,53 +30,47 @@ return {
 
   -- 🌈 Cores personalizadas
   colors = {
-    cursor_fg = "#000000", -- cor do texto sob o cursor
-    cursor_bg = "#FFFFFF", -- cursor branco sólido
+    cursor_fg = "#000000",
+    cursor_bg = "#FFFFFF",
     foreground = "#FFFFFF",
     background = "#000000",
 
     brights = {
-      "#555555", -- black
-      "#FF5555", -- red
-      "#55FF55", -- green
-      "#FFFF55", -- yellow
-      "#5555FF", -- blue
-      "#FF55FF", -- magenta
-      "#55FFFF", -- cyan
-      "#FFFFFF", -- white
+      "#555555",
+      "#FF5555",
+      "#55FF55",
+      "#FFFF55",
+      "#5555FF",
+      "#FF55FF",
+      "#55FFFF",
+      "#FFFFFF",
     },
 
-    
     ansi = {
-      "#000000", -- black
-      "#AA0000", -- red
-      "#00AA00", -- green
-      "#AA5500", -- yellow
-      "#0000AA", -- blue
-      "#AA00AA", -- magenta
-      "#00AAAA", -- cyan
-      "#AAAAAA", -- white
+      "#000000",
+      "#AA0000",
+      "#00AA00",
+      "#AA5500",
+      "#0000AA",
+      "#AA00AA",
+      "#00AAAA",
+      "#AAAAAA",
     },
 
   },
 
   -- ⌨️ Atalhos de teclado
   keys = {
-    -- Split vertical: Ctrl + |
     {
       key = '"',
       mods = "CTRL|SHIFT",
       action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" },
     },
-
-    -- Split horizontal: Ctrl + Shift + %
     {
       key = "%",
       mods = "CTRL|SHIFT",
       action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" },
     },
-
-    -- Mover foco entre panes com Shift + setas
     {
       key = "LeftArrow",
       mods = "SHIFT",
