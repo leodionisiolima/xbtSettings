@@ -142,8 +142,8 @@
       <property name="button-icon" type="string" value="/home/leo/Pictures/whiskerMenuIcon.png"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="favorites" type="array">
-        <value type="string" value="xfce4-web-browser.desktop"/>
-        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="virt-manager.desktop"/>
+        <value type="string" value="google-chrome.desktop"/>
       </property>
       <property name="recent" type="array">
         <value type="string" value="xfce-ui-settings.desktop"/>

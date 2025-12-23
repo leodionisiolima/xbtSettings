@@ -125,6 +125,13 @@
           <property name="last-image" type="string" value="/usr/share/images/desktop-base/default"/>
         </property>
       </property>
+      <property name="monitorHDMI-2" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/home/leo/Pictures/synthWallpapers/wallpaperbetter.com_7680x4320 (10).jpg"/>
+          <property name="backdrop-cycle-enable" type="bool" value="true"/>
+          <property name="backdrop-cycle-period" type="int" value="0"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
