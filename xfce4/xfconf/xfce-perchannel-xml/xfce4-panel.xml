@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="array">
@@ -139,24 +139,31 @@
       <property name="digital-date-format" type="string" value=" • "/>
     </property>
     <property name="plugin-7" type="string" value="whiskermenu">
-      <property name="button-icon" type="string" value="/home/leo/Pictures/whiskerMenuIcon.png"/>
+      <property name="button-icon" type="string" value="/home/leo/Pictures/grid.png"/>
       <property name="favorites-in-recent" type="bool" value="true"/>
       <property name="favorites" type="array">
-        <value type="string" value="virt-manager.desktop"/>
-        <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
       </property>
       <property name="recent" type="array">
-        <value type="string" value="xfce-ui-settings.desktop"/>
-        <value type="string" value="blueman-manager.desktop"/>
-        <value type="string" value="firefox-esr.desktop"/>
-        <value type="string" value="Alacritty.desktop"/>
         <value type="string" value="google-chrome.desktop"/>
-        <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="org.bluesabre.Mugshot.desktop"/>
-        <value type="string" value="anydesk.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
         <value type="string" value="xfce-keyboard-settings.desktop"/>
+        <value type="string" value="firefox_firefox.desktop"/>
+        <value type="string" value="anydesk.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
         <value type="string" value="terminator.desktop"/>
+        <value type="string" value="btop.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="xfce-session-settings.desktop"/>
       </property>
+      <property name="launcher-show-description" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="2"/>
+      <property name="category-icon-size" type="int" value="1"/>
+      <property name="view-mode" type="int" value="1"/>
+      <property name="sort-categories" type="bool" value="true"/>
+      <property name="position-search-alternate" type="bool" value="false"/>
+      <property name="menu-opacity" type="int" value="95"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

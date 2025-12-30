@@ -1,5 +1,5 @@
 format = """
-$shell • $username$hostname • $directory • 🌿 $git_branch
+$shell • $username$hostname • $directory$git_branch
 $character
 """
 
@@ -34,6 +34,6 @@ style = "bright-blue bold"
 
 [git_branch]
 disabled = false
-format = "[$symbol$branch]($style)"
+format = " • 🌿 [$symbol$branch]($style)"
 symbol = ""
 style = "purple bold"
