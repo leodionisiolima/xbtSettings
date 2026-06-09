@@ -1,10 +1,71 @@
+# Wrap every shell in a transient systemd-user cgroup scope. On window close
+# the scope is stopped and KillMode=control-group SIGKILLs every cgroup
+# member — disowned bg jobs, nohup'd processes, climax servers, daemons, all
+# of it. cgroup membership is kernel-enforced; no fork/setsid/daemonize trick
+# escapes it. Net result: closing alacritty leaves zero orphans behind.
+# See bedrock/alacritty/scripts/scoped-shell.sh for the full rationale.
+# (Top-level key — alacritty's `shell` is not nested under any section.)
+shell = "/leo/projects/bedrock/alacritty/scripts/scoped-shell.sh"
+
+# Pin the starting directory for every new alacritty window. Without this,
+# alacritty inherits the cwd of whatever process launched it — and when
+# that chain originates inside a Claude agent worktree, new windows open
+# in /leo/projects/bedrock/work/agents/<hash>/<hash>/.../<id> instead of
+# at home. Structurally impossible now: alacritty chdir's to $HOME before
+# spawning the shell, so no parent cwd can leak in.
+working_directory = "/home/leo"
+
+# Force-signal truecolor capability to every child process. Without this,
+# starship (and other prompt frameworks) inspect TERM/COLORTERM at launch
+# and, if TERM=xterm-256color and COLORTERM is unset, downgrade to 16- or
+# 256-color palette emission. Result: starship segments paint with palette
+# colors like #00AAAA (cyan) and #AAAAAA (gray) instead of the actual
+# truecolor RGB starship's config asked for. Setting TERM=alacritty makes
+# starship use the alacritty terminfo (truecolor-capable). COLORTERM is
+# the cross-prompt convention used by starship, vim, neovim, tmux, etc.
+[env]
+TERM = "alacritty"
+COLORTERM = "truecolor"
+# Force GRAYSCALE antialiasing for glyphs. Default fontconfig + FreeType
+# does subpixel-RGB AA, which writes glyph edges to R/G/B channels
+# independently. Over a SATURATED background color (red, blue, anything
+# non-grey), the RGB channels of the glyph blend with the bg's RGB and
+# produce visible color fringes on every letter edge — the muddy "halo"
+# you see on starship's powerline segments. Wezterm sidesteps this by
+# compositing the glyph against its own cell bg before blitting; alacritty
+# doesn't. FREETYPE_PROPERTIES=truetype:interpreter-version=35 + the
+# disabled subpixel mode through fontconfig produces clean grayscale AA
+# that doesn't fringe regardless of cell bg color.
+FREETYPE_PROPERTIES = "truetype:interpreter-version=35"
+
 [window]
 padding = { x = 5, y = 5 }
-opacity = 1.0
+opacity = 0.45
 
 [font]
-normal = { family = "Reddit Mono", style = "Regular" }
-size = 12
+# RedditMono Nerd Font Mono — Reddit Mono base patched via the official
+# Nerd Fonts font-patcher (--complete --mono). Glyphs are scaled to match
+# the host cell so icons render at correct size in Alacritty (which doesn't
+# auto-scale PUA glyphs the way WezTerm does).
+# Built by /leo/projects/bedrock/fonts/build_patched_fonts.sh
+normal = { family = "RedditMono Nerd Font", style = "Regular" }
+bold   = { family = "RedditMono Nerd Font", style = "Bold"    }
+# Reddit Mono pixel-snaps cleanly only at ODD point sizes (9, 11, 13, ...).
+# Even sizes (8, 10, 12) resolve to cell heights that fall on half-pixel
+# boundaries and the hinter renders them slightly stretched/blurred. Empirical
+# — repro: size 10 looks subtly off; sizes 9 and 11 look magazine-perfect.
+# When changing this, pick odd. If you need to step down or up, jump by 2.
+size = 9
+
+[selection]
+# Mouse selection ONLY populates X11 PRIMARY (middle-click paste). It does NOT
+# touch the system CLIPBOARD — that requires an explicit Ctrl+Shift+C. Reason:
+# auto-copying every selection is invasive — selecting code to point at it,
+# selecting URLs to read them, selecting words to inspect them all overwrite
+# whatever the user had deliberately copied earlier. Bonus: notify-send only
+# fires on intentional copies now, so the toast actually means "you copied
+# something" instead of "you moved your mouse".
+save_to_clipboard = false
 
 [colors.primary]
 background = "#000000"
@@ -24,11 +85,89 @@ white = "#FFFFFF"
 black = "#000000"
 red = "#AA0000"
 green = "#00AA00"
-yellow = "#AA5500"
+yellow = "#AAAA00"
 blue = "#0000AA"
 magenta = "#AA00AA"
 cyan = "#00AAAA"
 white = "#AAAAAA"
 
 [cursor]
-style = "Underline"
+# Underline cursor that always blinks — the blink is what makes it findable
+# instantly in a busy buffer. `blinking = "Always"` overrides the app's
+# preference (some apps disable the blink via terminal escapes).
+style = { shape = "Underline", blinking = "Always" }
+blink_interval = 500
+blink_timeout = 0    # 0 = never stop blinking (no idle timeout)
+
+# ─── Keybindings ───
+# Ctrl+Q: close alacritty window WITH confirmation. Spawns a script that
+# asks via zenity, kills the focused alacritty on Yes.
+#
+# Ctrl+W and ALL its variants (Shift, Alt, Meta) are deliberately UNBOUND
+# here — they belong to climax. Pane operations (Ctrl+M+w kill pane), window
+# operations (Ctrl+S+w kill climax window), splits (Ctrl+h/j/k/u) are all
+# climax concerns. Alacritty does not steal them.
+#
+# Why Ctrl+Q and not Ctrl+W: Ctrl+Q is XON in legacy serial flow-control,
+# which on modern systems is universally disabled (`stty -ixon`). It is not
+# used by climax, vim, less, or any common TUI. Safe to claim for "close
+# window" without conflict.
+[[keyboard.bindings]]
+key = "q"
+mods = "Control"
+command = { program = "/leo/projects/bedrock/alacritty/scripts/confirm-close-window.sh", args = [] }
+
+# Ctrl+Tab: open the cycler modal (centered window picker, see bedrock/climax).
+# Forward the keypress INTO climax as a CSI-u sequence (kitty keyboard
+# protocol: \e[9;5u = keycode 9 / Tab + modifier 5 / Ctrl). Climax binds
+# C-Tab to `cycler` in climax.feml. The earlier `command = climax cycler`
+# binding silently failed because it spawned an external `climax` process
+# with no attached client — the cycler is a per-client overlay and has
+# nothing to draw on. Sending the keystroke into the live client is the
+# only path that has client context.
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control"
+chars = "\u001b[9;5u"
+
+# Ctrl+Shift+Tab: cycle climax windows backward.
+# Same fix as above — emit CSI-u (modifier 6 = Ctrl+Shift) and bind it
+# in climax.feml.
+[[keyboard.bindings]]
+key = "Tab"
+mods = "Control|Shift"
+chars = "\u001b[9;6u"
+
+# Ctrl+Shift+C: forward to climax. Climax owns selection state
+# per EDR 29LI1gnMv (2026-05-28). Default alacritty action Copy
+# would copy alacritty's local selection — useless here because
+# mouse-reporting is on and alacritty has no selection of its own.
+# Climax binds C-S-c to copy-selection: extracts the selected text
+# from the pane's grid, writes PRIMARY + CLIPBOARD via the
+# dual-clipboard helper, emits notify-send with the char count.
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+chars = "\u001b[99;6u"
+
+# Ctrl+Shift+V stays at default alacritty Paste — reads clipboard
+# and writes it to PTY (= climax stdin), forwarded to the active
+# pane. No new binding needed.
+
+# ── Mouse: shift+click extends current selection ──
+# Default alacritty leaves shift+click as a passthrough event for the
+# inner app. Binding it to ExpandSelection lets us select with click+
+# drag, scroll, then shift-click to extend the selection across screens.
+# Right-click extends current selection (xterm-era convention: left=start,
+# middle=paste, right=extend). Native to alacritty — this binding is just
+# making it explicit so it survives any future default changes.
+[[mouse.bindings]]
+mouse = "Right"
+action = "ExpandSelection"
+
+
+# Wheel scrolling is owned by climax (tmux mouse mode enabled there).
+# alacritty 0.13's [[mouse.bindings]] does NOT catch wheel events — only
+# button events (Left/Right/Middle/Back/Forward + numeric). Wheel falls
+# through alacritty as mouse-tracking escapes which climax interprets via
+# WheelUpPane/WheelDownPane bindings.

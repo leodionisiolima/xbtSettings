@@ -21,7 +21,7 @@
       <property name="XF86Mail" type="empty"/>
       <property name="Print" type="empty"/>
       <property name="&lt;Alt&gt;Print" type="empty"/>
-      <property name="&lt;Shift&gt;Print" type="empty"/>
+      <property name="&lt;Shift&gt;Print" type="string" value="/home/leo/.local/bin/screenshot-to-clipboard"/>
       <property name="&lt;Super&gt;e" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
@@ -43,31 +43,30 @@
       <property name="XF86Music" type="empty"/>
     </property>
     <property name="custom" type="empty">
-      <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Super&gt;r" type="string" value="xfrun4">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
-      <property name="&lt;Alt&gt;F2" type="string" value="xfrun4">
-        <property name="startup-notify" type="bool" value="true"/>
-      </property>
       <property name="XF86Explorer" type="string" value="exo-open --launch FileManager"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
       <property name="XF86HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;e" type="string" value="exo-open --launch FileManager"/>
       <property name="override" type="bool" value="true"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="xfce4-screenshooter -r"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;s" type="string" value="/home/leo/.local/bin/screenshot-to-clipboard"/>
       <property name="&lt;Super&gt;c" type="string" value="mate-calc"/>
       <property name="&lt;Super&gt;g" type="string" value="/opt/google/chrome/google-chrome --app-id=cadlkienfkclaiaibeoongdcgmdikeeg"/>
-      <property name="&lt;Super&gt;Alt_L" type="string" value="/leo/rex/bin/fixComposeForever/fixComposeForever2"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="/leo/Programs/wezterm/wezterm.AppImage"/>
-      <property name="&lt;Super&gt;t" type="string" value="/leo/Programs/wezterm/wezterm.AppImage"/>
-      <property name="&lt;Super&gt;b" type="string" value="/leo/Programs/wezterm/wezterm.AppImage -e sudo btop"/>
+      <property name="&lt;Super&gt;Alt_L" type="string" value="/leo/projects/utils/fixComposeForever/fixComposeForever2"/>
+      <property name="&lt;Shift&gt;Print" type="string" value="/home/leo/.local/bin/screenshot-to-clipboard"/>
+      <property name="&lt;Alt&gt;Print" type="string" value="/home/leo/.local/bin/screenshot-window-clipboard"/>
+      <property name="&lt;Super&gt;z" type="string" value="z"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="alacritty"/>
+      <property name="&lt;Super&gt;t" type="string" value="alacritty"/>
+      <property name="&lt;Super&gt;b" type="string" value="alacritty -e sudo btop"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;space" type="string" value="xfce4-appfinder"/>
+      <property name="&lt;Super&gt;space" type="string" value="/home/leo/.local/bin/plank-poke"/>
+      <property name="&lt;Super&gt;s" type="string" value="/home/leo/.local/bin/screenshot-fullscreen-clipboard"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;&lt;Super&gt;r" type="string" value="/usr/bin/panick-panic-ram"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;&lt;Super&gt;d" type="string" value="/usr/bin/panick-panic-disk"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;&lt;Super&gt;p" type="string" value="/usr/bin/panick-restore-launcher"/>
+      <property name="&lt;Alt&gt;Pause" type="string" value="/usr/bin/chord_keybindings"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -148,7 +147,6 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_1" type="string" value="move_window_workspace_1_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_2" type="string" value="move_window_workspace_2_key"/>
-      <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
       <property name="&lt;Primary&gt;F1" type="string" value="workspace_1_key"/>
       <property name="Right" type="string" value="right_key"/>
       <property name="Left" type="string" value="left_key"/>
@@ -176,7 +174,6 @@
       <property name="&lt;Primary&gt;F8" type="string" value="workspace_8_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
       <property name="&lt;Primary&gt;F9" type="string" value="workspace_9_key"/>
-      <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="&lt;Alt&gt;space" type="string" value="popup_menu_key"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Super&gt;Up" type="string" value="maximize_window_key"/>
@@ -189,6 +186,8 @@
       <property name="&lt;Super&gt;m" type="string" value="tile_down_right_key"/>
       <property name="&lt;Super&gt;h" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;j" type="string" value="tile_right_key"/>
+      <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
+      <property name="&lt;Super&gt;Down" type="string" value="hide_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">

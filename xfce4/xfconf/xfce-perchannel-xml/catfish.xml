@@ -14,4 +14,5 @@
   <property name="window-x" type="int" value="635"/>
   <property name="window-y" type="int" value="270"/>
   <property name="exclude-paths" type="string" value="/dev;~/.cache;~/.gvfs;"/>
+  <property name="file-size-binary" type="bool" value="true"/>
 </channel>

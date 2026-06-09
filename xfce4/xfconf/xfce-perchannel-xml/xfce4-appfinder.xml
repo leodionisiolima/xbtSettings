@@ -36,7 +36,16 @@
   </property>
   <property name="last" type="empty">
     <property name="window-height" type="int" value="422"/>
-    <property name="window-width" type="int" value="580"/>
+    <property name="window-width" type="int" value="905"/>
     <property name="pane-position" type="int" value="180"/>
+    <property name="category" type="string" value="All Applications"/>
   </property>
+  <property name="always-center" type="bool" value="true"/>
+  <property name="remember-category" type="bool" value="true"/>
+  <property name="icon-view" type="bool" value="false"/>
+  <property name="item-icon-size" type="uint" value="1"/>
+  <property name="hide-category-pane" type="bool" value="false"/>
+  <property name="hide-window-decorations" type="bool" value="true"/>
+  <property name="sort-by-frecency" type="bool" value="false"/>
+  <property name="text-beside-icons" type="bool" value="true"/>
 </channel>

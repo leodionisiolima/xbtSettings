@@ -8,15 +8,23 @@
   <property name="misc-volume-management" type="empty"/>
   <property name="shortcuts-icon-size" type="empty"/>
   <property name="last-view" type="string" value="ThunarDetailsView"/>
-  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_100_PERCENT"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-window-maximized" type="bool" value="false"/>
-  <property name="last-window-width" type="int" value="950"/>
-  <property name="last-window-height" type="int" value="494"/>
-  <property name="last-show-hidden" type="bool" value="true"/>
-  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,121,121,50,452,50,50,71,453,141,50,64,50,141"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
-  <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
+  <property name="last-window-width" type="int" value="903"/>
+  <property name="last-window-height" type="int" value="453"/>
+  <property name="last-show-hidden" type="bool" value="false"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
+  <property name="last-details-view-column-widths" type="string" value="50,121,108,50,72,78,50,71,260,141,50,62,50,368"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_TYPE"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
   <property name="last-splitview-separator-position" type="int" value="388"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
+  <property name="misc-show-network-devices" type="bool" value="false"/>
+  <property name="misc-thumbnail-mode" type="string" value="THUNAR_THUMBNAIL_MODE_ALWAYS"/>
+  <property name="last-image-preview-visible" type="bool" value="true"/>
+  <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
+  <property name="misc-single-click" type="bool" value="false"/>
+  <property name="misc-thumbnail-max-file-size" type="uint64" value="1073741824"/>
 </channel>
