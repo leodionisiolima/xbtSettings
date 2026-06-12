@@ -144,6 +144,11 @@ return {
       action = wezterm.action.CloseCurrentPane { confirm = false },
     },
     {
+      key = "F4",
+      mods = "ALT",
+      action = wezterm.action.CloseCurrentTab { confirm = true },
+    },
+    {
       key = "Enter",
       mods = "ALT",
       action = wezterm.action.DisableDefaultAssignment,
