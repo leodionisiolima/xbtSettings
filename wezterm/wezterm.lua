@@ -24,7 +24,7 @@ end)
 return {
   window_close_confirmation = "AlwaysPrompt",
   font = wezterm.font("Reddit Mono", { weight = "Regular" }),
-  font_size = 12,
+  font_size = 9,
   adjust_window_size_when_changing_font_size = false,
   enable_tab_bar = true,
   use_fancy_tab_bar = false,
