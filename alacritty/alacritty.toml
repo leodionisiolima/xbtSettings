@@ -5,7 +5,7 @@
 # escapes it. Net result: closing alacritty leaves zero orphans behind.
 # See bedrock/alacritty/scripts/scoped-shell.sh for the full rationale.
 # (Top-level key — alacritty's `shell` is not nested under any section.)
-shell = "/leo/projects/bedrock/alacritty/scripts/scoped-shell.sh"
+shell = "/leo/projects/bedrock/epsilon/alacritty/scripts/scoped-shell.sh"
 
 # Pin the starting directory for every new alacritty window. Without this,
 # alacritty inherits the cwd of whatever process launched it — and when
@@ -47,7 +47,7 @@ opacity = 0.45
 # Nerd Fonts font-patcher (--complete --mono). Glyphs are scaled to match
 # the host cell so icons render at correct size in Alacritty (which doesn't
 # auto-scale PUA glyphs the way WezTerm does).
-# Built by /leo/projects/bedrock/fonts/build_patched_fonts.sh
+# Built by /leo/projects/bedrock/epsilon/fonts/build_patched_fonts.sh
 normal = { family = "RedditMono Nerd Font", style = "Regular" }
 bold   = { family = "RedditMono Nerd Font", style = "Bold"    }
 # Reddit Mono pixel-snaps cleanly only at ODD point sizes (9, 11, 13, ...).
@@ -115,7 +115,7 @@ blink_timeout = 0    # 0 = never stop blinking (no idle timeout)
 [[keyboard.bindings]]
 key = "q"
 mods = "Control"
-command = { program = "/leo/projects/bedrock/alacritty/scripts/confirm-close-window.sh", args = [] }
+command = { program = "/leo/projects/bedrock/epsilon/alacritty/scripts/confirm-close-window.sh", args = [] }
 
 # Ctrl+Tab: open the cycler modal (centered window picker, see bedrock/climax).
 # Forward the keypress INTO climax as a CSI-u sequence (kitty keyboard
