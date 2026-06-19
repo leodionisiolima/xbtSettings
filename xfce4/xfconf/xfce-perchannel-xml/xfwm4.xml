@@ -98,5 +98,6 @@
     <property name="margin_left" type="int" value="25"/>
     <property name="compositor_blur" type="bool" value="true"/>
     <property name="blur_radius" type="int" value="6"/>
+    <property name="window_opacity" type="int" value="100"/>
   </property>
 </channel>
