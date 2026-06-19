@@ -11,11 +11,11 @@
   <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
   <property name="last-separator-position" type="int" value="170"/>
   <property name="last-window-maximized" type="bool" value="false"/>
-  <property name="last-window-width" type="int" value="903"/>
-  <property name="last-window-height" type="int" value="953"/>
+  <property name="last-window-width" type="int" value="700"/>
+  <property name="last-window-height" type="int" value="400"/>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,121,108,50,72,260,50,71,424,141,50,62,50,122"/>
+  <property name="last-details-view-column-widths" type="string" value="50,121,108,50,72,260,50,71,221,141,50,62,50,122"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
   <property name="last-splitview-separator-position" type="int" value="388"/>
