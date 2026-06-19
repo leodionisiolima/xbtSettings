@@ -99,5 +99,6 @@
     <property name="compositor_blur" type="bool" value="true"/>
     <property name="blur_radius" type="int" value="8"/>
     <property name="window_opacity" type="int" value="80"/>
+    <property name="compositor_vitrify" type="bool" value="true"/>
   </property>
 </channel>
