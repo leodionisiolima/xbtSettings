@@ -38,7 +38,7 @@
     <property name="window-height" type="int" value="422"/>
     <property name="window-width" type="int" value="905"/>
     <property name="pane-position" type="int" value="180"/>
-    <property name="category" type="string" value="All Applications"/>
+    <property name="category" type="string" value="Bookmarks"/>
   </property>
   <property name="always-center" type="bool" value="true"/>
   <property name="remember-category" type="bool" value="true"/>
