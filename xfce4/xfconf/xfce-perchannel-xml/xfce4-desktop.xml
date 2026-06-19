@@ -17,7 +17,7 @@
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
         <property name="image-path" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_synthwave_tropical_sunset_neon_frame.jpg"/>
-        <property name="image-style" type="int" value="0"/>
+        <property name="image-style" type="int" value="5"/>
         <property name="image-show" type="empty"/>
         <property name="brightness" type="empty"/>
         <property name="color1" type="empty"/>
@@ -27,8 +27,8 @@
         <property name="last-single-image" type="empty"/>
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -38,8 +38,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -49,8 +49,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -60,8 +60,8 @@
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -71,8 +71,8 @@
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -82,8 +82,8 @@
         </property>
         <property name="workspace5" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -93,8 +93,8 @@
         </property>
         <property name="workspace6" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -104,8 +104,8 @@
         </property>
         <property name="workspace7" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -115,8 +115,8 @@
         </property>
         <property name="workspace8" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -127,7 +127,7 @@
       </property>
       <property name="monitor1" type="empty">
         <property name="image-path" type="empty"/>
-        <property name="image-style" type="int" value="0"/>
+        <property name="image-style" type="int" value="5"/>
         <property name="image-show" type="empty"/>
         <property name="brightness" type="empty"/>
         <property name="color1" type="empty"/>
@@ -138,19 +138,19 @@
       </property>
       <property name="monitor2" type="empty">
         <property name="image-path" type="empty"/>
-        <property name="image-style" type="int" value="0"/>
+        <property name="image-style" type="int" value="5"/>
         <property name="image-show" type="empty"/>
       </property>
       <property name="monitor3" type="empty">
         <property name="image-path" type="empty"/>
-        <property name="image-style" type="int" value="0"/>
+        <property name="image-style" type="int" value="5"/>
         <property name="image-show" type="empty"/>
       </property>
       <property name="monitorHDMI-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="6"/>
           <property name="backdrop-cycle-timer" type="uint" value="20"/>
@@ -163,8 +163,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -174,8 +174,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -185,8 +185,8 @@
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -196,8 +196,8 @@
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -207,8 +207,8 @@
         </property>
         <property name="workspace5" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -218,8 +218,8 @@
         </property>
         <property name="workspace6" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -229,8 +229,8 @@
         </property>
         <property name="workspace7" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -240,8 +240,8 @@
         </property>
         <property name="workspace8" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -253,8 +253,8 @@
       <property name="monitorNone-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -264,8 +264,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -275,8 +275,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -287,11 +287,11 @@
       </property>
       <property name="monitorHDMI-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
+          <property name="image-style" type="int" value="5"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -301,8 +301,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -312,8 +312,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -325,8 +325,8 @@
       <property name="monitorVirtual-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
           <property name="rgba1" type="array">
@@ -338,8 +338,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -349,8 +349,8 @@
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="1"/>
             <value type="double" value="1"/>
@@ -361,7 +361,7 @@
       </property>
       <property name="monitorHDMI-2" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_supercar_mountain_road_city.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ai_retrowave_sedan_city_skyline_orange_sun.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
         </property>
