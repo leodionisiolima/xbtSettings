@@ -40,9 +40,9 @@ FREETYPE_PROPERTIES = "truetype:interpreter-version=35"
 
 [window]
 padding = { x = 5, y = 5 }
-# +15% more opaque (0.45 -> 0.52): the general window/compositor transparency
+# +10% more opaque (0.52 -> 0.57): the general window/compositor transparency
 # washes the terminal out more than intended, so bump opacity to darken it back.
-opacity = 0.52
+opacity = 0.57
 
 [font]
 # RedditMono Nerd Font Mono — Reddit Mono base patched via the official

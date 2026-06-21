@@ -45,9 +45,9 @@ return {
     bottom = 0,
   },
 
-  -- +15% more opaque (0.45 -> 0.52): the general window/compositor transparency
+  -- +10% more opaque (0.52 -> 0.57): the general window/compositor transparency
   -- washes the terminal out more than intended, so bump opacity to darken it back.
-  window_background_opacity = 0.52,
+  window_background_opacity = 0.57,
 
   default_cursor_style = "SteadyUnderline",
   cursor_blink_ease_in = "Constant",
