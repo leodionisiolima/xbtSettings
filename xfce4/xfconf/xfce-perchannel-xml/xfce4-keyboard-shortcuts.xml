@@ -67,6 +67,7 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;&lt;Super&gt;d" type="string" value="/usr/bin/panick-panic-disk"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;&lt;Shift&gt;&lt;Super&gt;p" type="string" value="/usr/bin/panick-restore-launcher"/>
       <property name="&lt;Alt&gt;Pause" type="string" value="/usr/bin/chord_keybindings"/>
+      <property name="&lt;Super&gt;a" type="string" value="/usr/bin/chord_keybindings"/>
       <property name="&lt;Super&gt;m" type="string" value=""/>
       <property name="&lt;Super&gt;u" type="string" value=""/>
       <property name="&lt;Super&gt;i" type="string" value=""/>
