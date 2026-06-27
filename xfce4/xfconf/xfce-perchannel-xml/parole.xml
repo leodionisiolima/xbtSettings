@@ -11,7 +11,7 @@
     <property name="font" type="string" value="Sans Bold 20"/>
   </property>
   <property name="folders" type="empty">
-    <property name="last-used-media" type="string" value="/leo/projects/big_plant/assets"/>
+    <property name="last-used-media" type="string" value="/run/user/1000/gvfs/afc:host=00008110-000651D93EFB801E,port=3/com.blackmagic-design.DaVinciCamera/Media"/>
   </property>
   <property name="window" type="empty">
     <property name="maximized" type="bool" value="false"/>
