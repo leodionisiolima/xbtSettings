@@ -9,7 +9,7 @@
   </property>
   <property name="columns" type="empty">
     <property name="sort-type" type="uint" value="1"/>
-    <property name="sort-id" type="uint" value="5"/>
+    <property name="sort-id" type="uint" value="0"/>
   </property>
   <property name="window-maximized" type="bool" value="false"/>
 </channel>
