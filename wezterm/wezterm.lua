@@ -17,9 +17,13 @@ end)
 -- CTRL+click on a file link opens it in Zed, not the OS default (mousepad).
 -- Only file:// URIs are intercepted; http/https/etc fall through to the OS opener.
 wezterm.on("open-uri", function(window, pane, uri)
-  local file = uri:match("^file://[^/]*(/.*)$")
+  -- DEBUG: record every uri click so we can see exactly what wezterm passes
+  local log = io.open("/tmp/wz-openuri.log", "a")
+  if log then log:write(tostring(uri) .. "\n"); log:close() end
+
+  -- match file:// URIs and bare absolute/home paths
+  local file = uri:match("^file://[^/]*(/.*)$") or uri:match("^(/.*)$") or uri:match("^(~/.*)$")
   if file then
-    -- strip an URL fragment/anchor if present, keep any :line:col Zed understands
     file = file:gsub("#.*$", "")
     wezterm.background_child_process({ "/home/leo/.local/bin/zed", file })
     return false  -- prevent wezterm's default OS-open
