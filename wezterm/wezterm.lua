@@ -178,6 +178,11 @@ return {
       action = wezterm.action.SendKey { key = 'w', mods = 'CTRL' },
     },
     {
+      key = "r",
+      mods = "CTRL|SHIFT",
+      action = wezterm.action.ReloadConfiguration,
+    },
+    {
       key = "f",
       mods = "CTRL",
       action = wezterm.action.TogglePaneZoomState,
