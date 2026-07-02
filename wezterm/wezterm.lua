@@ -14,6 +14,19 @@ wezterm.on("format-window-title", function(tab, pane)
   return "wezterm"
 end)
 
+-- CTRL+click on a file link opens it in Zed, not the OS default (mousepad).
+-- Only file:// URIs are intercepted; http/https/etc fall through to the OS opener.
+wezterm.on("open-uri", function(window, pane, uri)
+  local file = uri:match("^file://[^/]*(/.*)$")
+  if file then
+    -- strip an URL fragment/anchor if present, keep any :line:col Zed understands
+    file = file:gsub("#.*$", "")
+    wezterm.background_child_process({ "/home/leo/.local/bin/zed", file })
+    return false  -- prevent wezterm's default OS-open
+  end
+  -- not a file link: let wezterm handle it normally
+end)
+
 wezterm.on("window-close-requested", function(window, pane)
   window:perform_action(
     wezterm.action.CloseCurrentPane { confirm = true },
