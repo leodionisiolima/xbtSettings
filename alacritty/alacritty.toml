@@ -57,7 +57,7 @@ bold   = { family = "RedditMono Nerd Font", style = "Bold"    }
 # boundaries and the hinter renders them slightly stretched/blurred. Empirical
 # — repro: size 10 looks subtly off; sizes 9 and 11 look magazine-perfect.
 # When changing this, pick odd. If you need to step down or up, jump by 2.
-size = 9
+size = 7
 
 [selection]
 # Mouse selection ONLY populates X11 PRIMARY (middle-click paste). It does NOT
