@@ -52,12 +52,7 @@ opacity = 0.57
 # Built by /leo/projects/bedrock/epsilon/fonts/build_patched_fonts.sh
 normal = { family = "RedditMono Nerd Font", style = "Regular" }
 bold   = { family = "RedditMono Nerd Font", style = "Bold"    }
-# Reddit Mono pixel-snaps cleanly only at ODD point sizes (9, 11, 13, ...).
-# Even sizes (8, 10, 12) resolve to cell heights that fall on half-pixel
-# boundaries and the hinter renders them slightly stretched/blurred. Empirical
-# — repro: size 10 looks subtly off; sizes 9 and 11 look magazine-perfect.
-# When changing this, pick odd. If you need to step down or up, jump by 2.
-size = 7
+size = 8
 
 [selection]
 # Mouse selection ONLY populates X11 PRIMARY (middle-click paste). It does NOT
