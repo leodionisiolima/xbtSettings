@@ -72,6 +72,7 @@
       <property name="&lt;Super&gt;u" type="string" value=""/>
       <property name="&lt;Super&gt;i" type="string" value=""/>
       <property name="&lt;Super&gt;n" type="string" value=""/>
+      <property name="&lt;Super&gt;&lt;Shift&gt;l" type="string" value="/leo/projects/bedrock/xfce/scripts/minimize_all_but_top"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
