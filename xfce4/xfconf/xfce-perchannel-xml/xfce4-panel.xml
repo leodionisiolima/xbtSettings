@@ -33,7 +33,7 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="false"/>
       <property name="known-players" type="string" value="Chrome;firefox;org.gnome.Rhythmbox3;parole"/>
     </property>
     <property name="plugin-15" type="string" value="power-manager-plugin"/>

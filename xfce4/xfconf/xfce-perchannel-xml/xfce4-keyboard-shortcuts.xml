@@ -73,6 +73,9 @@
       <property name="&lt;Super&gt;i" type="string" value=""/>
       <property name="&lt;Super&gt;n" type="string" value=""/>
       <property name="&lt;Super&gt;&lt;Shift&gt;l" type="string" value="/leo/projects/bedrock/xfce/scripts/minimize_all_but_top"/>
+      <property name="XF86AudioRaiseVolume" type="string" value="/usr/bin/volctl up"/>
+      <property name="XF86AudioLowerVolume" type="string" value="/usr/bin/volctl down"/>
+      <property name="XF86AudioMute" type="string" value="/usr/bin/volctl mute"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
