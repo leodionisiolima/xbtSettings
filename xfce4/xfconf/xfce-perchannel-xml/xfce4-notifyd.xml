@@ -21,6 +21,7 @@
       <value type="string" value="RustRover"/>
       <value type="string" value="thunar-volman"/>
       <value type="string" value="Transmission"/>
+      <value type="string" value="volctl"/>
       <value type="string" value="wezterm"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-settings-helper"/>
