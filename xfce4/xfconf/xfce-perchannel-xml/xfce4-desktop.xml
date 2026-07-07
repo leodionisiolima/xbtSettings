@@ -28,7 +28,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -39,7 +39,7 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -50,7 +50,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -61,7 +61,7 @@
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -72,7 +72,7 @@
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -83,7 +83,7 @@
         <property name="workspace5" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -94,7 +94,7 @@
         <property name="workspace6" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -105,7 +105,7 @@
         <property name="workspace7" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -116,7 +116,7 @@
         <property name="workspace8" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -150,7 +150,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="6"/>
           <property name="backdrop-cycle-timer" type="uint" value="20"/>
@@ -164,7 +164,7 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -175,7 +175,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -186,7 +186,7 @@
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -197,7 +197,7 @@
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -208,7 +208,7 @@
         <property name="workspace5" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -219,7 +219,7 @@
         <property name="workspace6" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -230,7 +230,7 @@
         <property name="workspace7" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -241,7 +241,7 @@
         <property name="workspace8" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -254,7 +254,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -265,7 +265,7 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -276,7 +276,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -287,7 +287,7 @@
       </property>
       <property name="monitorHDMI-1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
           <property name="color-style" type="int" value="0"/>
@@ -302,7 +302,7 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -313,7 +313,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -326,7 +326,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
           <property name="rgba1" type="array">
@@ -339,7 +339,7 @@
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -350,7 +350,7 @@
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0"/>
             <value type="double" value="0"/>
@@ -361,7 +361,7 @@
       </property>
       <property name="monitorHDMI-2" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-white-city-night-neon.png"/>
+          <property name="last-image" type="string" value="/leo/projects/spark/xbtSettings/wallpapers/ferrari-yellow-classical-building-night.png"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="backdrop-cycle-period" type="int" value="0"/>
         </property>
